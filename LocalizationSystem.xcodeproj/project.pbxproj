@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4E94DC2170E1AC6007A5B26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E94DC1170E1AC6007A5B26 /* Foundation.framework */; };
+		B4E94DC7170E1AC6007A5B26 /* LocalizationSystem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B4E94DC6170E1AC6007A5B26 /* LocalizationSystem.h */; };
+		B4E94DC9170E1AC6007A5B26 /* LocalizationSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E94DC8170E1AC6007A5B26 /* LocalizationSystem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B4E94DBC170E1AC6007A5B26 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				B4E94DC7170E1AC6007A5B26 /* LocalizationSystem.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B4E94DBE170E1AC6007A5B26 /* libLocalizationSystem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLocalizationSystem.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E94DC1170E1AC6007A5B26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B4E94DC5170E1AC6007A5B26 /* LocalizationSystem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalizationSystem-Prefix.pch"; sourceTree = "<group>"; };
+		B4E94DC6170E1AC6007A5B26 /* LocalizationSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalizationSystem.h; sourceTree = "<group>"; };
+		B4E94DC8170E1AC6007A5B26 /* LocalizationSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalizationSystem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4E94DBB170E1AC6007A5B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E94DC2170E1AC6007A5B26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4E94DB5170E1AC6007A5B26 = {
+			isa = PBXGroup;
+			children = (
+				B4E94DC3170E1AC6007A5B26 /* LocalizationSystem */,
+				B4E94DC0170E1AC6007A5B26 /* Frameworks */,
+				B4E94DBF170E1AC6007A5B26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4E94DBF170E1AC6007A5B26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4E94DBE170E1AC6007A5B26 /* libLocalizationSystem.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4E94DC0170E1AC6007A5B26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4E94DC1170E1AC6007A5B26 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4E94DC3170E1AC6007A5B26 /* LocalizationSystem */ = {
+			isa = PBXGroup;
+			children = (
+				B4E94DC6170E1AC6007A5B26 /* LocalizationSystem.h */,
+				B4E94DC8170E1AC6007A5B26 /* LocalizationSystem.m */,
+				B4E94DC4170E1AC6007A5B26 /* Supporting Files */,
+			);
+			path = LocalizationSystem;
+			sourceTree = "<group>";
+		};
+		B4E94DC4170E1AC6007A5B26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4E94DC5170E1AC6007A5B26 /* LocalizationSystem-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4E94DBD170E1AC6007A5B26 /* LocalizationSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4E94DCC170E1AC6007A5B26 /* Build configuration list for PBXNativeTarget "LocalizationSystem" */;
+			buildPhases = (
+				B4E94DBA170E1AC6007A5B26 /* Sources */,
+				B4E94DBB170E1AC6007A5B26 /* Frameworks */,
+				B4E94DBC170E1AC6007A5B26 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalizationSystem;
+			productName = LocalizationSystem;
+			productReference = B4E94DBE170E1AC6007A5B26 /* libLocalizationSystem.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4E94DB6170E1AC6007A5B26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Andy Molloy";
+			};
+			buildConfigurationList = B4E94DB9170E1AC6007A5B26 /* Build configuration list for PBXProject "LocalizationSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B4E94DB5170E1AC6007A5B26;
+			productRefGroup = B4E94DBF170E1AC6007A5B26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4E94DBD170E1AC6007A5B26 /* LocalizationSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4E94DBA170E1AC6007A5B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E94DC9170E1AC6007A5B26 /* LocalizationSystem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B4E94DCA170E1AC6007A5B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B4E94DCB170E1AC6007A5B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4E94DCD170E1AC6007A5B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LocalizationSystem.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalizationSystem/LocalizationSystem-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B4E94DCE170E1AC6007A5B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LocalizationSystem.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalizationSystem/LocalizationSystem-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4E94DB9170E1AC6007A5B26 /* Build configuration list for PBXProject "LocalizationSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E94DCA170E1AC6007A5B26 /* Debug */,
+				B4E94DCB170E1AC6007A5B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4E94DCC170E1AC6007A5B26 /* Build configuration list for PBXNativeTarget "LocalizationSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E94DCD170E1AC6007A5B26 /* Debug */,
+				B4E94DCE170E1AC6007A5B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4E94DB6170E1AC6007A5B26 /* Project object */;
+}

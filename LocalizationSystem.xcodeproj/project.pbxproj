@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B4E94DC2170E1AC6007A5B26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E94DC1170E1AC6007A5B26 /* Foundation.framework */; };
-		B4E94DC7170E1AC6007A5B26 /* LocalizationSystem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B4E94DC6170E1AC6007A5B26 /* LocalizationSystem.h */; };
-		B4E94DC9170E1AC6007A5B26 /* LocalizationSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E94DC8170E1AC6007A5B26 /* LocalizationSystem.m */; };
+		B4E94DD5170E1ADA007A5B26 /* LocalizableString.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E94DD0170E1ADA007A5B26 /* LocalizableString.m */; };
+		B4E94DD6170E1ADA007A5B26 /* LocalizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E94DD2170E1ADA007A5B26 /* LocalizationManager.m */; };
+		B4E94DD7170E1ADA007A5B26 /* PluralizationRule.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E94DD4170E1ADA007A5B26 /* PluralizationRule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,7 +20,6 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				B4E94DC7170E1AC6007A5B26 /* LocalizationSystem.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -29,8 +29,12 @@
 		B4E94DBE170E1AC6007A5B26 /* libLocalizationSystem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLocalizationSystem.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4E94DC1170E1AC6007A5B26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B4E94DC5170E1AC6007A5B26 /* LocalizationSystem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalizationSystem-Prefix.pch"; sourceTree = "<group>"; };
-		B4E94DC6170E1AC6007A5B26 /* LocalizationSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalizationSystem.h; sourceTree = "<group>"; };
-		B4E94DC8170E1AC6007A5B26 /* LocalizationSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalizationSystem.m; sourceTree = "<group>"; };
+		B4E94DCF170E1ADA007A5B26 /* LocalizableString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizableString.h; sourceTree = "<group>"; };
+		B4E94DD0170E1ADA007A5B26 /* LocalizableString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalizableString.m; sourceTree = "<group>"; };
+		B4E94DD1170E1ADA007A5B26 /* LocalizationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizationManager.h; sourceTree = "<group>"; };
+		B4E94DD2170E1ADA007A5B26 /* LocalizationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalizationManager.m; sourceTree = "<group>"; };
+		B4E94DD3170E1ADA007A5B26 /* PluralizationRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluralizationRule.h; sourceTree = "<group>"; };
+		B4E94DD4170E1ADA007A5B26 /* PluralizationRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PluralizationRule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +77,12 @@
 		B4E94DC3170E1AC6007A5B26 /* LocalizationSystem */ = {
 			isa = PBXGroup;
 			children = (
-				B4E94DC6170E1AC6007A5B26 /* LocalizationSystem.h */,
-				B4E94DC8170E1AC6007A5B26 /* LocalizationSystem.m */,
+				B4E94DCF170E1ADA007A5B26 /* LocalizableString.h */,
+				B4E94DD0170E1ADA007A5B26 /* LocalizableString.m */,
+				B4E94DD1170E1ADA007A5B26 /* LocalizationManager.h */,
+				B4E94DD2170E1ADA007A5B26 /* LocalizationManager.m */,
+				B4E94DD3170E1ADA007A5B26 /* PluralizationRule.h */,
+				B4E94DD4170E1ADA007A5B26 /* PluralizationRule.m */,
 				B4E94DC4170E1AC6007A5B26 /* Supporting Files */,
 			);
 			path = LocalizationSystem;
@@ -139,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4E94DC9170E1AC6007A5B26 /* LocalizationSystem.m in Sources */,
+				B4E94DD5170E1ADA007A5B26 /* LocalizableString.m in Sources */,
+				B4E94DD6170E1ADA007A5B26 /* LocalizationManager.m in Sources */,
+				B4E94DD7170E1ADA007A5B26 /* PluralizationRule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

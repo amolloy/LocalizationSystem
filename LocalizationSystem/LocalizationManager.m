@@ -131,7 +131,7 @@
 -(NSString*)pluralKeyPostfixForQuantity:(NSInteger)quantity
 {
 	NSInteger pf = [self.pluralizationRule getPluralFormForQuantity:quantity];
-	return [NSString stringWithFormat:@"%d", pf];
+	return [NSString stringWithFormat:@"%ld", (long)pf];
 }
 
 @end

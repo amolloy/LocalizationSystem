@@ -56,7 +56,7 @@
 			NSString* keyString = [NSString stringWithFormat:@"[%@]", key];
 			
 			[newFormatString replaceOccurrencesOfString:keyString
-											 withString:[NSString stringWithFormat:@"%%%lu$@", (i + 1)]
+											 withString:[NSString stringWithFormat:@"%%%lu$@", (unsigned long)(i + 1)]
 												options:0
 												  range:NSMakeRange(0, [newFormatString length])];
 		}
